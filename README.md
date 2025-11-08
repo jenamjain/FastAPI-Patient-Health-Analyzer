@@ -41,6 +41,7 @@ FastAPI-Patient-Health-Analyzer/
 1️⃣ Clone the repository
 
 git clone https://github.com/jenamjain/FastAPI-Patient-Health-Analyzer.git
+
 cd FastAPI-Patient-Health-Analyzer
 
 2️⃣ Create and activate a virtual environment
