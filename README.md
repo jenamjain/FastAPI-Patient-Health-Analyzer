@@ -44,3 +44,65 @@ FastAPI-Patient-Health-Analyzer/
 git clone https://github.com/jenamjain/FastAPI-Patient-Health-Analyzer.git
 cd FastAPI-Patient-Health-Analyzer
 
+2️⃣ Create and activate a virtual environment
+# Create a virtual environment
+python -m venv myenv
+
+# Activate the environment
+# On macOS/Linux:
+source myenv/bin/activate
+
+# On Windows:
+myenv\Scripts\activate
+
+3️⃣ Install dependencies
+pip install -r requirements.txt
+
+
+4️⃣ Run the FastAPI server
+uvicorn main:app --reload
+
+Now open your browser and visit:
+👉 http://127.0.0.1:8000
+
+5️⃣ Explore the API documentation
+FastAPI automatically generates interactive docs:
+
+
+Swagger UI → http://127.0.0.1:8000/docs
+
+
+ReDoc → http://127.0.0.1:8000/redoc
+
+
+
+🧪 Example API Endpoints
+MethodEndpointDescriptionGET/patientsGet all patient recordsPOST/patientsAdd a new patient recordGET/patients/{id}Retrieve a specific patient by IDDELETE/patients/{id}Delete a patient record
+
+🧮 Example BMI Insights
+BMI RangeCategory< 18.5Underweight18.5 – 24.9Normal weight25 – 29.9Overweight≥ 30Obese
+
+🌟 Future Enhancements
+
+
+Add database integration (SQLite / PostgreSQL)
+
+
+Include additional health metrics (BP, Sugar Level, etc.)
+
+
+Implement frontend dashboard with Streamlit or React
+
+
+Dockerize the application for deployment
+
+
+
+🧑‍💻 Author
+Jenam Jain
+📍 Data Science & Analytics | AIML Engineer
+🔗 GitHub Profile
+
+✅ FastAPI Patient Health Analyzer – Smart health insights made simple.
+
+
