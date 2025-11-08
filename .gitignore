@@ -1,0 +1,33 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.py.class
+
+# --- Environments ---
+env/
+venv/
+ENV/
+myenv/
+.venv/
+.ipynb_checkpoints/
+
+# --- IDEs ---
+.vscode/
+.idea/
+*.swp
+
+# --- OS ---
+.DS_Store
+Thumbs.db
+
+# --- Logs ---
+*.log
+
+# --- Data ---
+data/*.json
+!patients.json
+
+# --- Others ---
+*.sqlite3
