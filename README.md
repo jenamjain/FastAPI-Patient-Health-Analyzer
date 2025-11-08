@@ -89,7 +89,9 @@ BMI Range	Category
 🧑‍💻 Author
 
 Jenam Jain
+
 📍 Data Science & Analytics | AIML Engineer
+
 🔗 GitHub Profile
 
 ✅ FastAPI Patient Health Analyzer – Smart health insights made simple.
