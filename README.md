@@ -37,6 +37,7 @@ FastAPI-Patient-Health-Analyzer/
 ---
 
 ## ⚙️ Installation & Setup
+
 1️⃣ Clone the repository
 
 git clone https://github.com/jenamjain/FastAPI-Patient-Health-Analyzer.git
